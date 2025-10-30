@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import {
   Box,
   Container,
@@ -6,7 +6,6 @@ import {
   Card,
   CardContent,
   TextField,
-  InputAdornment,
   Button,
   Chip,
   Grid,
@@ -14,7 +13,6 @@ import {
   Alert,
 } from '@mui/material'
 import { categoryLabels, priceLabels } from '../data/foodData'
-import { DrawResult } from '../types'
 import { useStorage } from '../hooks/useStorage'
 
 export default function HistoryPage() {

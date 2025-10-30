@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import {
   Box,
   Container,
@@ -10,13 +10,10 @@ import {
   Chip,
   Grid,
   TextField,
-  InputAdornment,
-  IconButton,
   Snackbar,
   Alert,
 } from '@mui/material'
 import { categoryLabels, priceLabels } from '../data/foodData'
-import { Food } from '../types'
 import { useStorage } from '../hooks/useStorage'
 
 export default function FavoritesPage() {

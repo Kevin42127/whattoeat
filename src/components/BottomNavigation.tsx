@@ -1,4 +1,3 @@
-import React from 'react'
 import { useNavigate, useLocation } from 'react-router-dom'
 import { BottomNavigation, BottomNavigationAction, Paper } from '@mui/material'
 
@@ -32,7 +31,7 @@ export default function BottomNav() {
     >
       <BottomNavigation
         value={getValue()}
-        onChange={(event, newValue) => {
+        onChange={(_event, newValue) => {
           switch (newValue) {
             case 0:
               navigate('/')

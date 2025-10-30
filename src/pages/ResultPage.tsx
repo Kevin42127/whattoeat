@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import { useState, useEffect } from 'react'
 import { useParams, useNavigate } from 'react-router-dom'
 import {
   Box,
@@ -7,11 +7,9 @@ import {
   Card,
   CardContent,
   Button,
-  Chip,
   Snackbar,
   Alert,
   Grid,
-  Paper,
 } from '@mui/material'
 import { foodDatabase, categoryLabels, priceLabels, mealTimeLabels } from '../data/foodData'
 import { Food } from '../types'
